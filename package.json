@@ -1,0 +1,26 @@
+{
+  "name": "@ravnhq/prettier-config",
+  "version": "0.0.0-development",
+  "description": "Mimic your graphql API by quickly and easily generating mock graphql data in the browser and node.js",
+  "repository": "https://github.com/ravnhq/prettier-config",
+  "main": "index.json",
+  "author": "Donovan Hiland <donovan.hiland@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "format": "yarn prettier --config ./index.json",
+    "format:write": "yarn format --write",
+    "format:check": "yarn format --check",
+    "test": "yarn format . --check",
+    "semantic-release": "semantic-release",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": ">=6",
+    "lint-staged": ">=10",
+    "prettier": "^2.5.1",
+    "semantic-release": "^19.0.2"
+  },
+  "lint-staged": {
+    "*.{json,md,yml}": "yarn format:write"
+  }
+}
