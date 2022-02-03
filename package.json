@@ -6,6 +6,9 @@
   "main": "index.json",
   "author": "Donovan Hiland <donovan.hiland@gmail.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "format": "yarn prettier --config ./index.json",
     "format:write": "yarn format --write",
