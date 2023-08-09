@@ -1,6 +1,6 @@
 {
   "name": "@ravnhq/prettier-config",
-  "version": "0.0.0-development",
+  "version": "0.0.0",
   "description": "Ravn Development Team's Prettier Config",
   "repository": "https://github.com/ravnhq/prettier-config",
   "main": "index.json",
