@@ -1,7 +1,7 @@
 {
   "name": "@ravnhq/prettier-config",
   "version": "0.0.0-development",
-  "description": "Mimic your graphql API by quickly and easily generating mock graphql data in the browser and node.js",
+  "description": "Ravn Development Team's Prettier Config",
   "repository": "https://github.com/ravnhq/prettier-config",
   "main": "index.json",
   "author": "Donovan Hiland <donovan.hiland@gmail.com>",
@@ -25,5 +25,11 @@
   },
   "lint-staged": {
     "*.{json,md,yml}": "yarn format:write"
+  },
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.2.0"
+  },
+  "peerDependencies": {
+    "prettier": "2.x - 3.x"
   }
 }

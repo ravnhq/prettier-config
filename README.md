@@ -1,4 +1,4 @@
-# `@ravn/prettier-config`
+# `@ravnhq/prettier-config`
 
 > Ravn [Prettier](https://prettier.io) config.
 
@@ -7,11 +7,11 @@
 **Install**:
 
 ```bash
-$ yarn add --dev @ravn/prettier-config
+$ yarn add --dev @ravnhq/prettier-config
 ```
 
 **Edit `.prettierrc.js`**:
 
 ```js
-module.exports = "@ravn/prettier-config"
+module.exports = "@ravnhq/prettier-config"
 ```
