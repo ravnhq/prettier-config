@@ -1,6 +1,6 @@
 {
   "name": "@ravnhq/prettier-config",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "Ravn Development Team's Prettier Config",
   "repository": "https://github.com/ravnhq/prettier-config",
   "main": "index.json",
@@ -10,14 +10,15 @@
     "access": "public"
   },
   "scripts": {
-    "format": "yarn prettier --config ./index.json",
-    "format:write": "yarn format --write",
-    "format:check": "yarn format --check",
+    "format": "yarn prettier",
+    "format:write": "yarn format --write .",
+    "format:check": "yarn format --check .",
     "test": "yarn format . --check",
     "semantic-release": "semantic-release",
     "prepare": "husky install"
   },
   "devDependencies": {
+    "@commitlint/config-conventional": "^17.7.0",
     "husky": ">=6",
     "lint-staged": ">=10",
     "prettier": "^2.5.1",
